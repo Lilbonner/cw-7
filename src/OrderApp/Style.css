@@ -1,0 +1,77 @@
+.orderApp {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  width: 800px;
+}
+
+.orderDetails {
+  flex: 2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.addItems {
+  flex: 2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+button {
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-items: end;
+}
+
+.addBtn:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin: 0;
+}
+
+.totalPrice {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.total {
+  background-color: #ca3a3a;
+  border-radius: 5px;
+}
+
+.addBtn,
+.deleteBtn {
+  display: block;
+  margin-left: 300px;
+}
+
+.orderTitle,
+.addTitle {
+  margin-left: 140px;
+  color: #535bf2;
+}
+
+.deleteBtn:hover {
+  background-color: #b30000;
+  border: solid 1px #b30000;
+}
+.orderItem {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 10px;
+}
