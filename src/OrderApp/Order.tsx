@@ -1,7 +1,7 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import './Style.css';
 import OrderDetails from './Details';
-import AddItems from './AddItems';
+import AddItem from './AddItems';
 
 interface MenuItem {
   name: string;
@@ -45,15 +45,15 @@ export default function OrderApp() {
     { name: 'Hamburger', price: 80 },
     { name: 'Pizza', price: 120 },
     { name: 'Shawarma', price: 100 },
-    { name: 'hot dog', price: 60 },
-    { name: 'fries', price: 40 },
-    { name: 'nuggets', price: 50 },
+    { name: 'Hot dog', price: 60 },
+    { name: 'Fries', price: 40 },
+    { name: 'Nuggets', price: 50 },
   ];
 
   return (
     <div className="orderApp">
       <OrderDetails order={order} totalPrice={totalPrice} removeFromOrder={removeFromOrder} />
-      <AddItems menu={menu} addToOrder={addToOrder} />
+      <AddItem menu={menu} addToOrder={addToOrder} />
     </div>
   );
 }
