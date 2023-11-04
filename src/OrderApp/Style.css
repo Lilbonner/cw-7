@@ -19,6 +19,14 @@
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 5px;
+  margin-left: 30px;
+}
+
+.addItemsDiv {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
 }
 
 h2 {
@@ -52,6 +60,7 @@ p {
 .total {
   background-color: #ca3a3a;
   border-radius: 5px;
+  margin-top: 30px;
 }
 
 .addBtn,
@@ -62,7 +71,7 @@ p {
 
 .orderTitle,
 .addTitle {
-  margin-left: 140px;
+  margin-left: 127px;
   color: #535bf2;
 }
 
@@ -70,8 +79,14 @@ p {
   background-color: #b30000;
   border: solid 1px #b30000;
 }
+
 .orderItem {
   border: 1px solid white;
   border-radius: 5px;
   margin: 10px;
+}
+
+.orderP {
+  text-align: center;
+  margin-top: 200px;
 }

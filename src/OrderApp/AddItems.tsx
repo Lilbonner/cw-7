@@ -9,7 +9,7 @@ export default function AddItems({ menu, addToOrder }: AddItemsProps) {
       <h2 className="addTitle">Add Items</h2>
       {menu.map((item) => (
         <div key={item.name}>
-          <p>
+          <p className="addItemsDiv">
             {item.name} - {item.price} KGS
             <button className="addBtn" onClick={() => addToOrder(item)}>Add</button>
           </p>

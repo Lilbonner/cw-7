@@ -9,7 +9,7 @@ export default function OrderDetails({ order, totalPrice, removeFromOrder }: Ord
     <div className="orderDetails">
       <h2 className="orderTitle">Order Details</h2>
       {order.length === 0 ? (
-        <p>Your order is empty.</p>
+        <p className="orderP">Your order is empty.</p>
       ) : (
         <div>
           {order.map((item) => (
